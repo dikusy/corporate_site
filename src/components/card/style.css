@@ -1,0 +1,23 @@
+.card-content-wrapper {
+  width: 33.3%;
+}
+
+.card-title {
+  padding-top: 1rem;
+  font-size: 1.2rem;
+}
+
+.card-text {
+  padding-top: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.card-btn {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #aaa;
+  color: #aaa;
+  cursor: pointer;
+}

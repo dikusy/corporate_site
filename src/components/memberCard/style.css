@@ -1,0 +1,20 @@
+.member-card-wrapper {
+  width: 33.3%;
+  text-align: center;
+}
+
+.member-card-image-wrapper {
+  width: 100%;
+}
+
+.member-card-image {
+  border-radius: 50%;
+  width: 50%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.member-card-text-wrapper {
+  margin-top: 1rem;
+}
