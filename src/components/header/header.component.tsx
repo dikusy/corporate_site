@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './style.css';
 import { HashLink } from 'react-router-hash-link';
 
@@ -11,7 +10,9 @@ export const HeaderComponent: React.SFC<Props> = (props) => {
     <nav className="header-container">
       <ul className="item-view">
         <li>
-          <HashLink className="item-text" to="/"><img src="./images/dikusy_w_logo.png" alt="logo" width="auto" height="64px" /></HashLink>
+          <HashLink className="item-text" to="/">
+            <img src="./images/dikusy_w_logo.png" alt="logo" width="auto" height="64px" />
+          </HashLink>
         </li>
         <li>
           <HashLink className="item-text" to="#portfolio" smooth>{ texts.portfolio }</HashLink>
@@ -20,7 +21,10 @@ export const HeaderComponent: React.SFC<Props> = (props) => {
           <HashLink className="item-text" to="#team" smooth>{ texts.team }</HashLink>
         </li>
         <li>
-          <Link className="item-text" to="/contact">{ texts.contact }</Link>
+          <HashLink className="item-text" to="#company" smooth>{ texts.company }</HashLink>
+        </li>
+        <li>
+          <HashLink className="item-text" to="#contact" smooth>{ texts.contact }</HashLink>
         </li>
       </ul>
     </nav>
@@ -30,5 +34,6 @@ export const HeaderComponent: React.SFC<Props> = (props) => {
 export const texts = {
   team: `Team`,
   portfolio: `Portfolio`,
+  company: `Company`,
   contact: `Contact`,
 }

@@ -39,7 +39,7 @@
 }
 
 .portfolio-wrapper {
-  padding-top: 6rem;
+  padding-top: 10rem;
 }
 
 .portfolio-text-wrapper {
@@ -75,7 +75,7 @@
 }
 
 .team-wrapper {
-  padding-top: 6rem;
+  padding-top: 10rem;
 }
 
 .team-image-wrapper {
@@ -102,4 +102,105 @@
   justify-content: space-between;
   width: 90%;
   margin: 3rem auto 0;
+}
+
+.company-wrapper {
+  padding-top: 10rem;
+}
+
+.company-text-wrapper {
+  width: 90%;
+  margin: 3rem auto 0;
+}
+
+.company-title-text {
+  font-size: 6rem;
+}
+
+.company-sub-title-text {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.company-detail-wrapper {
+  width: 90%;
+  margin: 3rem auto 0;
+}
+
+.company-detail-section {
+  display: table;
+  width: 50%;
+  padding: 1rem 0;
+  box-sizing: border-box;
+  border-bottom: 1px solid #aaa;
+}
+
+.company-detail-section:first-child {
+  border-top: 1px solid #aaa;
+}
+
+
+.company-detail-section-column {
+  font-weight: bold;
+  width: 8rem;
+  display: table-cell;
+}
+
+.company-detail-section dd {
+  display: table-cell;
+}
+
+.contact-wrapper {
+  padding-top: 10rem;
+  padding-bottom: 6rem;
+}
+
+.contact-text-wrapper {
+  width: 90%;
+  margin: 3rem auto 0;
+}
+
+.contact-title-text {
+  font-size: 6rem;
+}
+
+.contact-sub-title-text {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.contact-form-wrapper {
+  margin: 3rem auto 0;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact-form-company-name-wrapper {
+  width: 30%;
+  margin: auto;
+  text-align: center;
+}
+
+.contact-form-address-wrapper {
+  width: 30%;
+  margin: auto;
+  text-align: left;
+  font-weight: bold;
+}
+
+.contact-form-address-wrapper p {
+  margin-bottom: 0.5rem;
+}
+
+.contact-form-email-wrapper {
+  width: 30%;
+  margin: auto;
+  text-align: left;
+}
+
+.email-text {
+  font-size: 2rem;
+  font-weight: bold;
 }

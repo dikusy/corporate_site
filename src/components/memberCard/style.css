@@ -1,5 +1,5 @@
 .member-card-wrapper {
-  width: 33.3%;
+  width: 25%;
   text-align: center;
 }
 
@@ -16,5 +16,20 @@
 }
 
 .member-card-text-wrapper {
+  margin-top: 1.5rem;
+}
+
+.self-introduction-wrapper {
   margin-top: 1rem;
+}
+
+.sns-icon-wrapper {
+  width: 50%;
+  margin: 1rem auto 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sns-icon-logo svg path {
+  font-size: 1rem;
 }
