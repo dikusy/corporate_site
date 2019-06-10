@@ -1,11 +1,11 @@
 import React from 'react';
-import './style.css';
+import styles from './style.module.css';
 
 interface Props {}
 
 export const FooterComponent: React.SFC<Props> = (props) => {
   return (
-    <nav className="footer-wrapper">
+    <nav className={styles.container}>
       <span>{ texts.footerTexts }</span>
     </nav>
   );

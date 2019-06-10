@@ -1,13 +1,13 @@
-.member-card-wrapper {
+.container {
   width: 25%;
   text-align: center;
 }
 
-.member-card-image-wrapper {
+.image_wrapper {
   width: 100%;
 }
 
-.member-card-image {
+.image {
   border-radius: 50%;
   width: 50%;
   margin: auto;
@@ -15,21 +15,21 @@
   align-items: center;
 }
 
-.member-card-text-wrapper {
+.text_wrapper {
   margin-top: 1.5rem;
 }
 
-.self-introduction-wrapper {
+.self_introduction_wrapper {
   margin-top: 1rem;
 }
 
-.sns-icon-wrapper {
+.sns_icon_wrapper {
   width: 50%;
   margin: 1rem auto 0;
   display: flex;
   justify-content: space-between;
 }
 
-.sns-icon-logo svg path {
+.sns_icon_logo svg path {
   font-size: 1rem;
 }

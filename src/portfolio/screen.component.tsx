@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './style.css';
+import styles from './style.module.css';
 
 interface Props {}
 
@@ -8,7 +8,7 @@ interface State {}
 export class screenComponent extends Component<Props, State> {
   public render() {
     return (
-      <div className="portfolio-container">
+      <div className={styles.container}>
         portfolio
       </div>
     );
