@@ -1,18 +1,18 @@
-.card-content-wrapper {
+.container {
   width: 33.3%;
 }
 
-.card-title {
+.title {
   padding-top: 1rem;
   font-size: 1.2rem;
 }
 
-.card-text {
+.text {
   padding-top: 0.5rem;
   font-size: 1.2rem;
 }
 
-.card-btn {
+.btn {
   margin-top: 0.5rem;
   font-size: 1rem;
   padding: 0.25rem 0.5rem;
