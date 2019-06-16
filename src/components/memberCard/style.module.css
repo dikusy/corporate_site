@@ -33,3 +33,31 @@
 .sns_icon_logo svg path {
   font-size: 1rem;
 }
+
+
+
+@media screen and (max-width: 480px) {
+
+  .container {
+    padding-top:1.5rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  .text_wrapper{
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+  }
+  
+  .self_introduction_wrapper {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .sns_icon_wrapper  {
+    width: 50%;
+    margin: 1.5rem auto 1.5rem;
+    display: flex;
+    justify-content: space-between;
+  }
+}

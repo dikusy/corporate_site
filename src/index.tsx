@@ -13,12 +13,12 @@ ReactDOM.render(
   <React.Fragment>
     <Router>
       <HeaderComponent />
-      <Route path="/" component={HomeScreenComponent}/>
-      <Route path="/portfolio" component={PortfolioScreenComponent}/>
-      <Route path="/contact" component={ContactScreenComponent}/>
+      <Route path="/" component={HomeScreenComponent} />
+      <Route path="/portfolio" component={PortfolioScreenComponent} />
+      <Route path="/contact" component={ContactScreenComponent} />
     </Router>
     <FooterComponent />
-  </React.Fragment>, 
+  </React.Fragment>,
   document.getElementById('root')
 );
 serviceWorker.unregister();

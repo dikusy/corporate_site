@@ -3,7 +3,7 @@ import styles from './style.module.css';
 import { HashLink } from 'react-router-hash-link';
 
 
-interface Props {}
+interface Props { }
 
 export const HeaderComponent: React.SFC<Props> = (props) => {
   return (
@@ -11,20 +11,20 @@ export const HeaderComponent: React.SFC<Props> = (props) => {
       <ul className={styles.item_view}>
         <li>
           <HashLink className={styles.item_text} to="/">
-            <img src="./images/dikusy_w_logo.png" alt="logo" width="auto" height="64px" />
+            <img src="./images/dikusy_w_logo_mini.png" alt="logo" width="auto" height="64px" />
           </HashLink>
         </li>
         <li>
-          <HashLink className={styles.item_text} to="#portfolio" smooth>{ texts.portfolio }</HashLink>
+          <HashLink className={styles.item_text} to="#portfolio" smooth>{texts.portfolio}</HashLink>
         </li>
         <li>
-          <HashLink className={styles.item_text} to="#team" smooth>{ texts.team }</HashLink>
+          <HashLink className={styles.item_text} to="#team" smooth>{texts.team}</HashLink>
         </li>
         <li>
-          <HashLink className={styles.item_text} to="#company" smooth>{ texts.company }</HashLink>
+          <HashLink className={styles.item_text} to="#company" smooth>{texts.company}</HashLink>
         </li>
         <li>
-          <HashLink className={styles.item_text} to="#contact" smooth>{ texts.contact }</HashLink>
+          <HashLink className={styles.item_text} to="#contact" smooth>{texts.contact}</HashLink>
         </li>
       </ul>
     </nav>

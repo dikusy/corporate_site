@@ -5,7 +5,7 @@ import { MemberCardComponent } from '../components/memberCard/member.card.compon
 import styles from './style.module.css';
 
 
-interface Props {}
+interface Props { }
 
 export interface Portfolio {
   title: string;
@@ -50,12 +50,12 @@ export class ScreenComponent extends Component<Props, State> {
         {
           name: `泉谷 暖`,
           image: `./images/dan.jpg`,
-          text: `smaple sample sample sample sample sample sample sample sample sample sample`,
+          text: `北海道でSierを行い、プログラマーを目指し東京に上京しましたとさ！ちゃんちゃん`,
         },
         {
           name: `黒澤 進伍`,
           image: `./images/shingo.jpg`,
-          text: `sample sample sample smaple sample sample sample sample sample sample sample sample sample sample`,
+          text: `大手通信会社を退社後、海外を徘徊したのち、出家しようか悩んだ結果プログラマーに転職`,
         },
         {
           name: `上野 佑真`,
@@ -76,19 +76,19 @@ export class ScreenComponent extends Component<Props, State> {
         </div>
 
         <div className={styles.vision_wrapper}>
-          <h3 className={styles.vision_title_text}>{ texts.visionTitle }</h3>
+          <h3 className={styles.vision_title_text}>{texts.visionTitle}</h3>
 
-          <p className={styles.vision_sub_title_text}>{ texts.visionSubTitle }</p>
+          <p className={styles.vision_sub_title_text}>{texts.visionSubTitle}</p>
 
           <div className={styles.vision_text_wrapper}>
             <div className={styles.vision_text_top_wrapper}>
-              <p>{ texts.visionText1 }</p>
-              <p>{ texts.visionText2 }</p>
-              <p>{ texts.visionText3 }</p>
+              <p>{texts.visionText1}</p>
+              <p>{texts.visionText2}</p>
+              <p>{texts.visionText3}</p>
             </div>
             <div className={styles.vision_text_bottom_wrapper}>
-              <p>{ texts.visionText4 }</p>
-              <p>{ texts.visionText5 }</p>
+              <p>{texts.visionText4}</p>
+              <p>{texts.visionText5}</p>
             </div>
           </div>
         </div>
@@ -99,17 +99,17 @@ export class ScreenComponent extends Component<Props, State> {
           </div>
 
           <div className={styles.portfolio_text_wrapper}>
-            <h3 className={styles.portfolio_title_text}>{ texts.portfolioTitle }</h3>
+            <h3 className={styles.portfolio_title_text}>{texts.portfolioTitle}</h3>
             <div className={styles.portfolio_sub_text_wrapper}>
-              <p>{ texts.portfolioText1 }</p>
-              <p>{ texts.portfolioText2 }</p>
-              <p>{ texts.portfolioText3 }</p>
+              <p>{texts.portfolioText1}</p>
+              <p>{texts.portfolioText2}</p>
+              <p>{texts.portfolioText3}</p>
             </div>
           </div>
 
           <div className={styles.card_wrapper}>
-            {portfolios.map((portfolio, i) => 
-              <CardComponent portfolio={ portfolio } key={i} />
+            {portfolios.map((portfolio, i) =>
+              <CardComponent portfolio={portfolio} key={i} />
             )}
           </div>
 
@@ -124,12 +124,12 @@ export class ScreenComponent extends Component<Props, State> {
           </div>
 
           <div className={styles.team_title_wrapper}>
-            <h3 className={styles.team_title_text}>{ texts.teamTitle }</h3>
-            <p className={styles.team_sub_title_text}>{ texts.teamSubTitle }</p>
+            <h3 className={styles.team_title_text}>{texts.teamTitle}</h3>
+            <p className={styles.team_sub_title_text}>{texts.teamSubTitle}</p>
           </div>
 
           <div className={styles.member_wrapper}>
-            {members.map((member, i) => 
+            {members.map((member, i) =>
               <MemberCardComponent member={member} key={i} />
             )}
           </div>
@@ -141,33 +141,33 @@ export class ScreenComponent extends Component<Props, State> {
           </div>
 
           <div className={styles.company_text_wrapper}>
-            <h3 className={styles.company_title_text}>{ texts.companyTitle }</h3>
-            <p className={styles.company_sub_title_text}>{ texts.companySubTitle }</p>
+            <h3 className={styles.company_title_text}>{texts.companyTitle}</h3>
+            <p className={styles.company_sub_title_text}>{texts.companySubTitle}</p>
           </div>
 
           <div className={styles.company_detail_wrapper}>
             <dl className={styles.company_detail_section}>
-              <dt className={styles.company_detail_section_column}>{ texts.companyNameColumn }</dt>
-              <dd>{ texts.companyName }</dd>
+              <dt className={styles.company_detail_section_column}>{texts.companyNameColumn}</dt>
+              <dd>{texts.companyName}</dd>
             </dl>
             <dl className={styles.company_detail_section}>
-              <dt className={styles.company_detail_section_column}>{ texts.establishmentColumn }</dt>
-              <dd>{ texts.establishment }</dd>
+              <dt className={styles.company_detail_section_column}>{texts.establishmentColumn}</dt>
+              <dd>{texts.establishment}</dd>
             </dl>
             <dl className={styles.company_detail_section}>
-              <dt className={styles.company_detail_section_column}>{ texts.capitalColumn }</dt>
-              <dd>{ texts.capital }</dd>
+              <dt className={styles.company_detail_section_column}>{texts.capitalColumn}</dt>
+              <dd>{texts.capital}</dd>
             </dl>
             <dl className={styles.company_detail_section}>
-              <dt className={styles.company_detail_section_column}>{ texts.addressColumn }</dt>
+              <dt className={styles.company_detail_section_column}>{texts.addressColumn}</dt>
               <dd>
-                <p>{ texts.postal }</p>
-                <p>{ texts.address }</p>
+                <p>{texts.postal}</p>
+                <p>{texts.address}</p>
               </dd>
             </dl>
             <dl className={styles.company_detail_section}>
-              <dt className={styles.company_detail_section_column}>{ texts.businessContentColumn }</dt>
-              <dd>{ texts.businessContent }</dd>
+              <dt className={styles.company_detail_section_column}>{texts.businessContentColumn}</dt>
+              <dd>{texts.businessContent}</dd>
             </dl>
           </div>
         </div>
@@ -177,27 +177,27 @@ export class ScreenComponent extends Component<Props, State> {
             <img src="./images/dikusy_contact03_1920_500.jpg" alt="contact_img" width="100%" />
           </div>
           <div className={styles.contact_text_wrapper}>
-            <h3 className={styles.contact_title_text}>{ texts.contactTitle }</h3>
-            <p className={styles.contact_sub_title_text}>{ texts.contactSubTitle }</p>
+            <h3 className={styles.contact_title_text}>{texts.contactTitle}</h3>
+            <p className={styles.contact_sub_title_text}>{texts.contactSubTitle}</p>
           </div>
 
           <div className={styles.contact_form_wrapper}>
             <div className={styles.contact_form_company_name_wrapper}>
               <div className={styles.contact_form_company_logo}>
-                <img src="./images/dikusy_b_logo02.png" alt="dikusy_logo" width="50%"/>
+                <img src="./images/dikusy_b_logo02.png" alt="dikusy_logo" width="50%" />
               </div>
-              <p className={styles.contact_form_company_name_text}>{ texts.companyName }</p>
+              <p className={styles.contact_form_company_name_text}>{texts.companyName}</p>
             </div>
 
             <div className={styles.contact_form_address_wrapper}>
-              <p>{ texts.postal }</p>
-              <p>{ texts.address }</p>
-              <p>{ texts.phoneNumber }</p>
+              <p>{texts.postal}</p>
+              <p>{texts.address}</p>
+              <p>{texts.phoneNumber}</p>
             </div>
 
             <div className={styles.contact_form_email_wrapper}>
-              <p>{ texts.contactEmailText }</p>
-              <p className={styles.email_text}>{ texts.email }</p>
+              <p>{texts.contactEmailText}</p>
+              <p className={styles.email_text}>{texts.email}</p>
             </div>
           </div>
         </div>
@@ -215,7 +215,7 @@ export const texts = {
   establishment: `2019年 7月 7日`,
   capital: `150,000円`,
   businessContent: `web制作・企画・開発・運営`,
-  
+
   visionTitle: `Fun With Intention.`,
   visionSubTitle: `~ sub vision ~`,
   visionText1: `「GEEK！」`,

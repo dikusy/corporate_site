@@ -12,15 +12,15 @@ export const MemberCardComponent: React.SFC<Props> = (props) => {
   return (
     <div className={styles.container}>
       <div className={styles.image_wrapper}>
-        <img className={styles.image} src={ props.member.image } alt="member_image" width="100%" />
+        <img className={styles.image} src={props.member.image} alt="member_image" width="100%" />
       </div>
 
       <div className={styles.text_wrapper}>
-        <h4>{ props.member.name }</h4>
+        <h4>{props.member.name}</h4>
       </div>
 
       <div className={styles.self_introduction_wrapper}>
-        <p>{ props.member.text }</p>
+        <p>{props.member.text}</p>
       </div>
 
       <div className={styles.sns_icon_wrapper}>
