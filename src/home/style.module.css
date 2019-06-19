@@ -1,9 +1,9 @@
-.home-container {
+.container {
   /* padding-top: 64px; */
   padding-bottom: 64px;
 }
 
-.home-image-wrapper {
+.top_image_wrapper {
   width: 100%;
   display: flex;
   align-items: center;
@@ -11,55 +11,59 @@
   height: 100Vh;
 }
 
-.vision-wrapper {
+.vision_wrapper {
   width: 90%;
   margin: 0 auto;
   text-align: left;
   padding-top: 4rem;
 }
 
-.vision-title {
+.vision_title_text {
   font-size: 6rem;
 }
 
-.vision-sub-title {
+.vision_sub_title_text {
   font-size: 1.5rem;
   margin-top: 1rem;
   color: #d8d8d8;
 }
 
-.vision-text-wrapper {
+.vision_text_wrapper {
   line-height: 1.5;
   margin-top: 1.5rem;
   font-size: 1.5rem;
 }
 
-.vision-text-bottom-wrapper {
+.vision_text_top_wrapper {}
+
+.vision_text_bottom_wrapper {
   padding-top: 1.2rem;
 }
 
-.portfolio-wrapper {
+.portfolio_wrapper {
   padding-top: 10rem;
 }
 
-.portfolio-text-wrapper {
+.portfolio_image_wrapper {}
+
+.portfolio_text_wrapper {
   padding-right: 1rem;
   padding-left: 1rem;
   max-width: 90%;
   margin: 3rem auto 0;
 }
 
-.portfolio-title {
+.portfolio_title_text {
   font-size: 6rem;
 }
 
-.portfolio-sub-text-wrapper {
+.portfolio_sub_text_wrapper {
   margin-top: 1.5rem;
   font-size: 1.5rem;
   line-height: 1.5;
 }
 
-.card-wrapper {
+.card_wrapper {
   width: 100%;
   margin-top: 6rem;
   display: flex;
@@ -69,65 +73,67 @@
   box-sizing: border-box;
 }
 
-.more-button-wrapper {
+.more_button_wrapper {
   text-align: center;
   margin-top: 3rem;
 }
 
-.team-wrapper {
+.team_wrapper {
   padding-top: 10rem;
 }
 
-.team-image-wrapper {
+.team_image_wrapper {
   width: 100%;
 }
 
-.team-title-wrapper {
+.team_title_wrapper {
   width: 90%;
   margin: 3rem auto 0;
   padding: 0 1rem;
 }
 
-.team-title-text {
+.team_title_text {
   font-size: 6rem;
 }
 
-.team-sub-title-text {
+.team_sub_title_text {
   margin-top: 1rem;
   font-size: 1.5rem;
 }
 
-.member-wrapper {
+.member_wrapper {
   display: flex;
   justify-content: space-between;
   width: 90%;
   margin: 3rem auto 0;
 }
 
-.company-wrapper {
+.company_wrapper {
   padding-top: 10rem;
 }
 
-.company-text-wrapper {
+.company_iamge_wrapper {
   width: 90%;
   margin: 3rem auto 0;
 }
 
-.company-title-text {
+.company_text_wrapper {}
+
+.company_title_text {
   font-size: 6rem;
 }
 
-.company-sub-title-text {
+.company_sub_title_text {
   margin-top: 1rem;
   font-size: 1.5rem;
 }
 
-.company-detail-wrapper {
+.company_detail_wrapper {
   width: 90%;
   margin: 3rem auto 0;
 }
 
-.company-detail-section {
+.company_detail_section {
   display: table;
   width: 50%;
   padding: 1rem 0;
@@ -135,12 +141,12 @@
   border-bottom: 1px solid #aaa;
 }
 
-.company-detail-section:first-child {
+.company_detail_section:first-child {
   border-top: 1px solid #aaa;
 }
 
 
-.company-detail-section-column {
+.company_detail_section_column {
   font-weight: bold;
   width: 8rem;
   display: table-cell;
@@ -150,26 +156,28 @@
   display: table-cell;
 }
 
-.contact-wrapper {
+.contact_wrapper {
   padding-top: 10rem;
   padding-bottom: 6rem;
 }
 
-.contact-text-wrapper {
+.contact_image_wrapper {}
+
+.contact_text_wrapper {
   width: 90%;
   margin: 3rem auto 0;
 }
 
-.contact-title-text {
+.contact_title_text {
   font-size: 6rem;
 }
 
-.contact-sub-title-text {
+.contact_sub_title_text {
   font-size: 1.5rem;
   margin-top: 1rem;
 }
 
-.contact-form-wrapper {
+.contact_form_wrapper {
   margin: 3rem auto 0;
   width: 90%;
   display: flex;
@@ -177,30 +185,34 @@
   justify-content: space-between;
 }
 
-.contact-form-company-name-wrapper {
+.contact_form_company_name_wrapper {
   width: 30%;
   margin: auto;
   text-align: center;
 }
 
-.contact-form-address-wrapper {
+.contact_form_company_logo {}
+
+.contact_form_company_name_text {}
+
+.contact_form_address_wrapper {
   width: 30%;
   margin: auto;
   text-align: left;
   font-weight: bold;
 }
 
-.contact-form-address-wrapper p {
+.contact_form_address_wrapper p {
   margin-bottom: 0.5rem;
 }
 
-.contact-form-email-wrapper {
+.contact_form_email_wrapper {
   width: 30%;
   margin: auto;
   text-align: left;
 }
 
-.email-text {
+.email_text {
   font-size: 2rem;
   font-weight: bold;
 }

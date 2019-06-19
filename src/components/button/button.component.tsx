@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.css';
+import styles from './style.module.css';
 
 interface Props {
   text: string;
@@ -7,6 +7,6 @@ interface Props {
 
 export const ButtonComponent: React.SFC <Props> = (props) => {
   return (
-    <button className="button-text">{props.text}</button>
+    <button className={styles.text}>{props.text}</button>
   );
 }
